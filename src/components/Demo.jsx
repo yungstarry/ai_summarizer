@@ -3,9 +3,6 @@ import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
 
 const Demo = () => {
-  useEffect(() => {
-    window.scrollTo(0, document.body.scrollHeight);
-  });
 
   const [article, setArticle] = useState({
     url: "",
