@@ -7,7 +7,9 @@ const Hero = () => {
         <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
         <button
           type="button"
-          onClick={() => window.open("https://github.com/yungstarry")}
+          onClick={() =>
+            window.open("https://github.com/yungstarry/ai_summarizer")
+          }
           className="black_btn"
         >
           GitHub
@@ -18,7 +20,7 @@ const Hero = () => {
         Summarize Article with <br className=" max-md:hidden" />
         <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
-      
+
       <h2 className="desc">
         Simplify your reading with Summize, an open-source article summarizer
         that transforms lengthy articles into cleat and concise summaries
